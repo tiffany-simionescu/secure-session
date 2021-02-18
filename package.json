@@ -1,0 +1,27 @@
+{
+  "name": "secure-session",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiffany-simionescu/secure-session.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tiffany-simionescu/secure-session/issues"
+  },
+  "homepage": "https://github.com/tiffany-simionescu/secure-session#readme",
+  "dependencies": {
+    "cookie-session": "^1.4.0",
+    "csurf": "^1.11.0",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.2.6",
+    "helmet": "^4.4.1",
+    "hpp": "^0.2.3"
+  }
+}
