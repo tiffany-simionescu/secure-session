@@ -14,8 +14,7 @@ function App() {
     })
   }, [])
 
-  if (auth === false) {
-  // if (auth === null) {
+  if (auth === null) {
     return <Loading />
   }
   if (auth) {
